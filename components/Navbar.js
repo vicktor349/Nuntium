@@ -59,13 +59,13 @@ const Navbar = () => {
                 overlayBlur={3}
             >
                 <div>
-                    <Link onClick={() => setOpened(false)} className='block text-center hover:text-gray-600' href='/'>
+                    <Link onClick={() => setOpened(false)} className='block text-center hover:text-gray-600 hover:underline' href='/'>
                         Home
                     </Link>
-                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600' href='/tags'>
+                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline' href='/tags'>
                         Tags
                     </Link>
-                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600' href='#'>
+                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline' href='#'>
                         About
                     </Link>
                 </div>
