@@ -22,7 +22,7 @@ const Navbar = () => {
     const [drawer, setDrawer] = useState(false)
     const title = opened ? 'Close navigation' : 'Open navigation';
     return (
-        <div className='mx-6 my-8'>
+        <div className='my-8'>
             <Link href='/'>
                 <span className='bg-black text-white pl-3 pt-3 pr-1 text-2xl'>nu</span>
                 <span className='text-2xl'>ntium.</span>
