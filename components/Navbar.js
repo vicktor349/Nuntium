@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { Button, createStyles, Drawer } from '@mantine/core'
+import { Button, Drawer } from '@mantine/core'
 import { CiSearch } from 'react-icons/ci'
 import { useRouter } from 'next/router'
 import { Burger } from '@mantine/core'
@@ -11,18 +11,10 @@ const Navbar = () => {
     // const activeColor = (p) => router.pathname === p ? 'active' : 'non-active'
     const router = useRouter();
     const currentRoute = router.pathname;
-    const useStyles = createStyles(() => ({
-        button: {
-            borderColor: '#000',
-            color: '#000'
-        }
-    }))
-    const { classes } = useStyles()
     const [opened, setOpened] = useState(false);
-    const [drawer, setDrawer] = useState(false)
     const title = opened ? 'Close navigation' : 'Open navigation';
     return (
-        <div className='my-8'>
+        <div className='mx-6 my-8'>
             <Link href='/'>
                 <span className='bg-black text-white pl-3 pt-3 pr-1 text-2xl'>nu</span>
                 <span className='text-2xl'>ntium.</span>
@@ -40,7 +32,7 @@ const Navbar = () => {
             </div>
             <div className='float-right hidden md:block'>
                 <CiSearch className='inline-block mr-5 text-3xl cursor-pointer' />
-                <Button className={classes.button} component='a' href='#' variant='outline'>
+                <Button className='border-black text-black' component='a' href='#' variant='outline'>
                     Login
                 </Button>
             </div>
@@ -67,6 +59,9 @@ const Navbar = () => {
                     </Link>
                     <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline' href='#'>
                         About
+                    </Link>
+                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline' href='#'>
+                        Login
                     </Link>
                 </div>
             </Drawer>
