@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
 import FeaturedArticle from '../components/FeaturedArticle'
+import EditorsPick from '../components/EditorsPick'
 
 
 
@@ -14,6 +14,7 @@ export default function Home() {
             </Head>
             <div className='mx-6 my-8'>
                 <FeaturedArticle />
+                <EditorsPick />
             </div>
         </>
     )
