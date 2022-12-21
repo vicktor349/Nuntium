@@ -854,6 +854,10 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pb-24{
+  padding-bottom: 6rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -935,6 +939,14 @@ video {
 
   .sm\:w-5\/12{
     width: 41.666667%;
+  }
+
+  .sm\:w-6\/12{
+    width: 50%;
+  }
+
+  .sm\:w-7\/12{
+    width: 58.333333%;
   }
 
   .sm\:text-xs{
