@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'Libre Baskerville': ['Libre Baskerville']
+      },
+      screens: {
+        'xsm': { 'max': '480px' },
       }
     },
 
