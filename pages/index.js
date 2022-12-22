@@ -2,6 +2,7 @@ import Head from 'next/head'
 import FeaturedArticle from '../components/FeaturedArticle'
 import EditorsPick from '../components/EditorsPick'
 import FeatureArticle from '../components/FeatureArticle'
+import RandomArticle from '../components/RandomArticle'
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
                 <FeaturedArticle />
                 <EditorsPick />
                 <FeatureArticle />
+                <RandomArticle />
             </div>
         </>
     )
