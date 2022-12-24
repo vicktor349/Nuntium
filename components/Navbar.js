@@ -26,7 +26,7 @@ const Navbar = () => {
                 <Link className={`ml-8 ${currentRoute === '/tags' ? "active" : "non-active"}}`} href='/tags'>
                     Tags
                 </Link>
-                <Link className='pl-8' href='#'>
+                <Link className='pl-8' href='/about'>
                     About
                 </Link>
             </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                     <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='/tags'>
                         Tags
                     </Link>
-                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='#'>
+                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='about'>
                         About
                     </Link>
                     <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='#'>
