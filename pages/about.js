@@ -52,7 +52,7 @@ const about = () => {
                     </div>
                     <div className='absolute w-[444px] mt-[1400px] ml-60'>
                         <h3 className='text-3xl'>
-                            We share the little moments that shows we’re alive.
+                            We share the little moments that shows we&apos;re alive.
                         </h3>
                         <p>
                             Laboris consectetur sunt nulla eiusmod voluptate
@@ -62,10 +62,10 @@ const about = () => {
                             veniam dolore excepteur tempor dolor consectetur ut id.
                         </p>
                     </div>
-                    <div className='grid grid-cols-3 absolute left-96 gap-6 bottom-0' >
+                    <div className='grid grid-cols-3 absolute left-96 gap-6 bottom-0 mb-12' >
                         <Image src={Cat} alt='Picture of A cat' />
                         <Image src={Boy} alt='Picture of A Boy Standing' />
-                        <Image src={BeardedMan} alt='Picture of a Bearded Man' />
+                        <Image src={BeardedMan} alt='Picture of a Bearded Man' className='h-72' />
                     </div>
                     <div className='border-2 border-white bg-white border-solid w-2 absolute bottom-0 ml-40 h-[1452px]'></div>
                 </div>
