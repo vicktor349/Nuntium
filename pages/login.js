@@ -41,7 +41,7 @@ const login = () => {
                             <Link href='#' className='text-sm ml-20 mt-1'>Forgot Password?</Link>
                         </div>
                     </div>
-                    <Button className='border-black text-black w-full text-2xl mt-4' size='lg' type='submit' variant='outline'>
+                    <Button className='border-black text-black w-full text-xl mt-4' size='lg' type='submit' variant='outline'>
                         Login
                     </Button>
                 </form>
