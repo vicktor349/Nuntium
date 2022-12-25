@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
             <div className='float-right hidden md:block'>
                 <CiSearch className='inline-block mr-5 text-3xl cursor-pointer' />
-                <Button className='border-black text-black' component='a' href='#' variant='outline'>
+                <Button className='border-black text-black' component='a' href='/login' variant='outline'>
                     Login
                 </Button>
             </div>
@@ -57,10 +57,10 @@ const Navbar = () => {
                     <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='/tags'>
                         Tags
                     </Link>
-                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='about'>
+                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='/about'>
                         About
                     </Link>
-                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='#'>
+                    <Link onClick={() => setOpened(false)} className='block text-center mt-8 hover:text-gray-600 hover:underline hover:font-bold' href='/login'>
                         Login
                     </Link>
                 </div>
