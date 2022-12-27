@@ -30,6 +30,10 @@ module.exports = {
       },
       gridAutoColumns: {
         '2fr': 'minmax(0, 2fr)',
+      },
+      backgroundImage: {
+        'hero': "url('../public/img/Article-Image.png')",
+        'article': "url('../public/img/Article-Image2.png')"
       }
     },
 

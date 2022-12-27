@@ -5,7 +5,7 @@ import Minimalism from '../public/img/Editors Choice/Minimalism.png'
 const FeatureArticle = () => {
     return (
         <>
-            <div className="bg-[url('../public/img/Article-Image2.png')] hidden mt-72  md:pb-24 md:block lg:pb-64 xl:object-contain pl-8">
+            <div className="bg-article hidden mt-72  md:pb-24 md:block lg:pb-64 xl:object-contain pl-8">
                 <div className='left-8 px-6 py-12 sm:w-7/12 bg-white md:w-5/12 pt-6 pb-6 xl:w-2/6'>
                     <p className='text-gray-500'>INTERIOR</p>
                     <h3 className=' md:text-xl lg:text-2xl font-bold'>
