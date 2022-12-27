@@ -19,7 +19,7 @@ const tags = () => {
                             size='lg'
                             className='sm:mx-72 md:mx-72 lg:mx-80 xl:mx-96'
                             placeholder='Find the topics you care about...'
-                            rightSection={<CiSearch className='-ml-8' size={32} />}
+                            rightSection={<CiSearch className='-ml-8 lg:inline-block hidden' size={32} />}
                         />
                     </Input.Wrapper>
                 </div>
