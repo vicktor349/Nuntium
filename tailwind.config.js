@@ -28,6 +28,9 @@ module.exports = {
         '524px': '524px',
         '444px': '444px'
       },
+      gridAutoColumns: {
+        '2fr': 'minmax(0, 2fr)',
+      }
     },
 
   },
