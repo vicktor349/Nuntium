@@ -23,10 +23,10 @@ const Navbar = () => {
                 <Link className={currentRoute === '/' ? "active" : "non-active"} href='/'>
                     Home
                 </Link>
-                <Link className={`ml-8 ${currentRoute === '/tags' ? "active" : "non-active"}}`} href='/tags'>
+                <Link className={currentRoute === '/tags' ? "active" : "non-active"} style={{ marginLeft: '32px' }} href='/tags'>
                     Tags
                 </Link>
-                <Link className='pl-8' href='/about'>
+                <Link className={currentRoute === '/about' ? "active" : "non-active"} style={{ marginLeft: '32px' }} href='/about'>
                     About
                 </Link>
             </div>
