@@ -7,8 +7,6 @@ import { Burger } from '@mantine/core'
 
 
 const Navbar = () => {
-    // const router = useRouter()
-    // const activeColor = (p) => router.pathname === p ? 'active' : 'non-active'
     const router = useRouter();
     const currentRoute = router.pathname;
     const [opened, setOpened] = useState(false);
@@ -26,7 +24,7 @@ const Navbar = () => {
                 <Link className={currentRoute === '/tags' ? "active" : "non-active"} style={{ marginLeft: '32px' }} href='/tags'>
                     Tags
                 </Link>
-                <Link className={currentRoute === '/about' ? "active" : "non-active"} style={{ marginLeft: '32px' }} href='/about'>
+                <Link className={currentRoute === '/about' ? "active" : "non-active"} style={{ marginLeft: '32px', }} href='/about'>
                     About
                 </Link>
             </div>
