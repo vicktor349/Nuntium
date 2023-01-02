@@ -23,11 +23,15 @@ const about = () => {
                     <p className='mt-8 leading-8 text-xl'>A publishing company that focuses <br /> on the essentials.</p>
                 </div>
                 <div className='bg-black w-full mt-40 h-[2109px] mb-24 text-white relative'>
-                    <div className='border-2 border-white border-solid w-2 h-3/6 bg-white float-right mr-64'></div>
-                    <Image src={AboutPicture} alt='statue' className='absolute right-0 mr-32 w-5/12 mt-64' />
-                    <div className='w-[444px] ml-24 mt-64 absolute'>
-                        <h3 className='text-4xl'>
+                    <div className='hidden border-2 border-white border-solid w-2 bg-white float-right lg:inline-block ] lg:h-3/6 lg:mr-28 xl:h-3/6 xl:mr-64'></div>
+                    <Image src={AboutPicture} alt='statue' className='absolute right-0 mt-64 w-5/12 md:mr-28 lg:mr-16 xl:mr-32' />
+                    <div className='absolute md:w-[650px] md:ml-12 md:mt-16 lg:ml-24 lg:w-[390px] lg:mt-64 xl:w-[444px]'>
+                        <h3 className='hidden lg:inline-block text-4xl'>
                             We tell stories that <br /> drives the heart.
+                        </h3>
+                        {/* SHOWS ONLY IN MEDIUM SCREEN */}
+                        <h3 className='text-3xl md:inline-block lg:hidden'>
+                            We tell stories that drives the heart.
                         </h3>
                         <p>
                             Laboris consectetur sunt nulla eiusmod voluptate
@@ -38,9 +42,9 @@ const about = () => {
                             dolor consectetur ut id.
                         </p>
                     </div>
-                    <Image src={aboutImage} alt='image' className='w-5/12 absolute ml-80 mt-[520px]' />
-                    <div className='absolute w-[524px] mt-[1000px] ml-80'>
-                        <h3 className='text-4xl'>
+                    <Image src={aboutImage} alt='image' className='w-5/12 absolute md:mt-[500px] md:ml-40 lg:mt-[520px] lg:ml-40 xl:ml-80' />
+                    <div className='absolute w-[524px]  md:ml-40 md:mt-[950px] lg:mt-[1000px] lg:ml-60 xl:ml-80'>
+                        <h3 className='md:text-3xl lg:text-4xl'>
                             We tell the news that makes the most impact.
                         </h3>
                         <p>
@@ -53,8 +57,8 @@ const about = () => {
                             dolor consectetur ut id.
                         </p>
                     </div>
-                    <div className='absolute w-[444px] mt-[1400px] ml-60'>
-                        <h3 className='text-3xl'>
+                    <div className='absolute w-[444px] md:mt-[1800px] lg:mt-[1400px] ml-60'>
+                        <h3 className='md:text-2xl lg:text-3xl'>
                             We share the little moments that shows we&apos;re alive.
                         </h3>
                         <p>
@@ -65,12 +69,12 @@ const about = () => {
                             veniam dolore excepteur tempor dolor consectetur ut id.
                         </p>
                     </div>
-                    <div className='grid grid-cols-3 absolute left-96 gap-6 bottom-0 mb-12' >
-                        <Image src={Cat} alt='Picture of A cat' className='h-72' />
-                        <Image src={Boy} alt='Picture of A Boy Standing' className='h-72' />
-                        <Image src={BeardedMan} alt='Picture of a Bearded Man' className='h-72' />
+                    <div className='grid grid-cols-3 absolute gap-6  mb-12 md:mt-[1400px] md:mx-12 lg:bottom-0 lg:left-96 lg:mr-20 xl:mr-12 ' >
+                        <Image src={Cat} alt='Picture of A cat' />
+                        <Image src={Boy} alt='Picture of A Boy Standing' />
+                        <Image src={BeardedMan} alt='Picture of a Bearded Man' />
                     </div>
-                    <div className='border-2 border-white bg-white border-solid w-2 absolute bottom-0 ml-40 h-[1452px]'></div>
+                    <div className='hidden border-2 border-white bg-white border-solid w-2 absolute bottom-0 lg:inline-block lg:ml-28 xl:ml-40 h-[1452px]'></div>
                 </div>
                 <div className='w-[444px] text-center mx-auto mt-80'>
                     <h3 className='text-4xl'>
