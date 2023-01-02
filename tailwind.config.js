@@ -13,9 +13,12 @@ module.exports = {
         'xsm': { 'max': '480px' },
       },
       margin: {
+        '500px': '500px',
         '520px': '520px',
+        '950px': '950px',
         '1000px': '1000px',
-        '1400px': '1400px'
+        '1400px': '1400px',
+        '1800px': '1800px'
       },
       height: {
         '350px': '350px',
@@ -25,8 +28,10 @@ module.exports = {
       width: {
         '324px': '324px',
         '350px': '350px',
+        '390px': '390px',
+        '444px': '444px',
         '524px': '524px',
-        '444px': '444px'
+        '650px': '650px'
       },
       gridAutoColumns: {
         '2fr': 'minmax(0, 2fr)',
